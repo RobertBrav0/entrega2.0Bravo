@@ -1,0 +1,72 @@
+#botonera{
+    background-color: #6D8B24;
+}
+
+    #botonera ul li a{
+        color: black;
+        font-size: 1.2em;
+        /*Subrayado animado*/
+		background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+
+    #botonera ul li a:hover{
+        color: black;
+		font-weight: 600;
+		/*Subrayado animado*/
+		background-size: 100% 2px;
+    }
+
+    #botonera img{
+        width: 100px;
+     
+    }
+
+    #botonera svg{
+        fill: #6D8B24;
+    }
+
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+footer a img{
+    width: 100px;
+  height: 100px;
+}
+footer h3{
+    color: #6D8B24;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+footer h3{
+    list-style: none;
+}
+.img-mediana{
+    width: 300px;
+  height: 300px;
+}
+form{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+form label {
+    display: flex;
+}
+form input{
+    display: flex;
+}
